@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "learning basic node",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/SchoolOfCode/node-101-workshop-room-84-zulfiya-and-andriana/issues"
   },
-  "homepage": "https://github.com/SchoolOfCode/node-101-workshop-room-84-zulfiya-and-andriana#readme"
+  "homepage": "https://github.com/SchoolOfCode/node-101-workshop-room-84-zulfiya-and-andriana#readme",
+  "dependencies": {
+    "chalk": "^5.0.0"
+  }
 }
